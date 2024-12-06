@@ -1,0 +1,20 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+
+.botonesNavBar {
+    display: flex;
+    place-items: center;
+    margin: auto; /* esto me sirve para centrar el div */
+    max-width: 90%; /* esto extiende lo que abarca la clase al 90%, en este caso el div toma el 90% del ancho del navegador */
+    
+}
+
+.boton {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
