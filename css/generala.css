@@ -9,8 +9,6 @@ nav ul {
     display: flex;
     place-items: center;
     margin: auto; /* esto me sirve para centrar el div */
-    max-width: 90%; /* esto extiende lo que abarca la clase al 90%, en este caso el div toma el 90% del ancho del navegador */
-    
 }
 
 .boton {
@@ -25,4 +23,16 @@ footer {
     text-align: center;
     padding: 5px 0;
     margin-top: 20px;
+}
+
+.encabezado {
+    
+    margin: auto;
+}
+
+.tituloEncabezado {
+    display: flex;
+    place-items: center;
+    margin: auto;
+    max-width: max-content;
 }
